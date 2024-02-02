@@ -32,32 +32,32 @@ const data = {
       linkUrl: '/what-is-ebpf/',
       items: [
         {
-          title: 'Performance',
+          title: '성능',
           icon: 'performance',
           description:
-            'eBPF drastically improves processing by being JIT compiled and running directly in the kernel.',
+            'eBPF는 JIT 컴파일되어 커널 내에서 직접 실행되므로 처리 성능이 크게 향상됩니다.',
         },
         {
-          title: 'Security',
+          title: '보안',
           icon: 'security',
           description:
-            'eBPF programs are verified to not crash the kernel and can only be modified by privileged users.',
+            'eBPF 프로그램은 커널에서 오류가 발생하지 않도록 검증되며 권한 있는 사용자만이 수정할 수 있습니다.',
         },
         {
           title: 'Flexibility',
           icon: 'flexibility',
           description:
-            'Modify or add functionality and use cases to the kernel without having to restart or patch it.',
+            '커널을 재시작하거나 패치하지 않고도 커널에 기능 및 유즈케이스를 수정하거나 추가할 수 있습니다.',
         },
       ],
     },
     film: {
-      label: 'premiere',
-      title: 'Unlocking the Kernel',
+      label: '최초공개',
+      title: '커널을 잠금해제하다',
       videoId: 'Wb_vD3XZYOA',
       description:
-        'The eBPF Documentary provides an in-depth exploration on the origins of eBPF and showcases the stories, challenges, and rewards of this industry changing technology. You will hear from the best and brightest in the open source world, including key stakeholders from Meta, Intel, Isovalent, Google, Red Hat, and Netflix, who helped shape and build the tools that drove the success and adoption of eBPF.',
-      buttonText: 'eBPF Documentary Website',
+        'eBPF 다큐멘터리는 eBPF의 시작 및 산업을 변화시키는 기술의 이야기, 도전 그리고 보상에 대한 심층적인 내용을 소개합니다. 여러분은 Meta, Intel, Isovalent, Google, Red Hat 및 Netflix와 같이 eBPF의 성공과 확산을 위한 도구를 설계한 오픈소스 세상 최고의 사람들의 이야기를 듣게 됩니다.',
+      buttonText: 'eBPF 다큐멘터리 웹 사이트',
       buttonUrl: 'https://ebpfdocumentary.com/',
     },
     testimonials: {
@@ -338,8 +338,8 @@ const data = {
       ],
     },
     film: {
-      label: 'premiere',
-      title: 'Unlocking the Kernel',
+      label: '공개',
+      title: '커널을 잠금 해제하다',
       videoId: 'Wb_vD3XZYOA',
       description:
         'The eBPF Documentary provides an in-depth exploration on the origins of eBPF and showcases the stories, challenges, and rewards of this industry changing technology. You will hear from the best and brightest in the open source world, including key stakeholders from Meta, Intel, Isovalent, Google, Red Hat, and Netflix, who helped shape and build the tools that drove the success and adoption of eBPF.',
@@ -481,8 +481,8 @@ const data = {
       ],
     },
     film: {
-      label: 'premiere',
-      title: 'Unlocking the Kernel',
+      label: '최초공개',
+      title: '커널을 잠금해제하다',
       videoId: 'Wb_vD3XZYOA',
       description:
         'The eBPF Documentary provides an in-depth exploration on the origins of eBPF and showcases the stories, challenges, and rewards of this industry changing technology. You will hear from the best and brightest in the open source world, including key stakeholders from Meta, Intel, Isovalent, Google, Red Hat, and Netflix, who helped shape and build the tools that drove the success and adoption of eBPF.',
