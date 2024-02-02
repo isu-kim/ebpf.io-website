@@ -55,7 +55,7 @@ const caseStudiesData = {
       title: 'Google',
       logo: Google,
       description:
-        '<strong>Google</strong> uses eBPF for security auditing, packet processing, and performance monitoring',
+        '<strong>Google</strong>은 eBPF를 보안 감시, 패킷 처리 그리고 성능 모니터링을 위해 사용합니다.',
       links: [
         {
           text: 'Video',
@@ -70,7 +70,7 @@ const caseStudiesData = {
     {
       title: 'Netflix',
       logo: Netflix,
-      description: '<strong>Netflix</strong> uses eBPF at scale for network insights',
+      description: '<strong>Netflix</strong>는 eBPF를 대규모의 네트워크 관측을 위해 사용합니다.',
       links: [
         {
           text: 'Blog',
@@ -86,7 +86,7 @@ const caseStudiesData = {
       title: 'Android',
       logo: Android,
       description:
-        '<strong>Android</strong> uses eBPF to monitor network usage, power, and memory profiling',
+        '<strong>Android</strong>는 eBPF를 네트워크 사용량, 전력 및 메모리 프로파일링을 위해 사용합니다.',
       links: [
         {
           text: 'Docs',
@@ -98,7 +98,7 @@ const caseStudiesData = {
       title: 'S&P Global',
       logo: Global,
       description:
-        '<strong>S&P Global</strong> uses eBPF through Cilium for networking across multiple clouds and on-prem',
+        '<strong>S&P Global</strong>은 eBPF를 Cilium을 통해 멀티 클라우드 환경과 온프레미스 환경의 네트워킹을 위해 사용합니다.',
       links: [
         {
           text: 'Video',
@@ -109,7 +109,7 @@ const caseStudiesData = {
     {
       title: 'Shopify',
       logo: Shopify,
-      description: '<strong>Shopify</strong> uses eBPF through Falco for intrusion detection',
+      description: '<strong>Shopify</strong>는 eBPF를 Falco를 통해 침입 탐지를 위해 사용합니다.',
       links: [
         {
           text: 'Video',
@@ -121,7 +121,7 @@ const caseStudiesData = {
       title: 'Cloudflare',
       logo: Cloudflare,
       description:
-        '<strong>Cloudflare</strong> uses eBPF for network security, performance monitoring, and network observability',
+        '<strong>Cloudflare</strong>은 eBPF를 네트워크 보안, 성능 모니터링 그리고 네트워크 관측가능성을 위해 사용합니다.',
       links: [
         {
           text: 'Blog',

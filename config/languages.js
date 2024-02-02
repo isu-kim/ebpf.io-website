@@ -35,6 +35,11 @@ module.exports = {
       shortName: 'Swa',
       code: 'sw',
     },
+    kr: {
+      name: '한국어',
+      shortName: 'Kor',
+      code: 'kr',
+    }
   },
   defaultLanguage: 'en',
 };

@@ -7,27 +7,27 @@ const data = {
   en: {
     hero: {
       title:
-        'Dynamically program the kernel for efficient networking, observability, tracing, and security',
+        '효율적인 네트워킹, 관측 가능성, 추적 및 보안을 위해 커널을 동적으로 프로그래밍할 수 있습니다',
       blackButtonTitle: 'Project Landscape',
       blackButtonUrl: '/applications',
-      yellowButtonTitle: 'What is eBPF',
+      yellowButtonTitle: 'eBPF란',
       yellowButtonUrl: '/what-is-ebpf',
       altImage: 'eBPF diagram',
       items: [
-        'Programs are verified to safely execute',
-        'Hook anywhere in the kernel to modify functionality',
-        'JIT compiler for near native execution speed',
-        'Add OS capabilities at runtime',
+        '안전한 실행을 위해 프로그램은 검증됩니다',
+        '커널의 기능을 변경하기 위해 임의의 위치에 훅을 걸 수 있습니다',
+        'JIT 컴파일러를 사용하여 원래의 실행 속도와 유사합니다',
+        '런타임에서 OS에 기능을 추가할 수 있습니다',
       ],
     },
     caseStudies: {
-      title: 'Organizations in every industry use eBPF in production',
+      title: '모든 산업의 다양한 기업들이 eBPF를 프로덕션 환경에서 사용합니다',
       linkText: 'More case studies',
       linkUrl: '/case-studies/',
       items: caseStudiesData.en.slice(0, 6),
     },
     whyEbpf: {
-      title: 'Why eBPF?',
+      title: 'eBPF를 왜 사용할까요?',
       linkTitle: 'What is eBPF',
       linkUrl: '/what-is-ebpf/',
       items: [
