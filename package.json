@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "npm run develop",
-    "develop": "gatsby develop -H 0.0.0.0",
+    "develop": "gatsby develop -H 0.0.0.0 -p 8080",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",

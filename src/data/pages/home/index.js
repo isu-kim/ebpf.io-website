@@ -67,7 +67,7 @@ const data = {
           logoWidth: 134,
           company: 'Microsoft Azure',
           review:
-            'eBPF has resulted in a new generation of tooling that allows developers to easily diagnose problems, innovate quickly, and extend operating system functionality.',
+            'eBPF는 개발자들이 문제들을 쉽게 진단하고, 빠르게 혁신하며 운영 체제의 기능을 확장할 수 있는 새로운 세대의 도구를 만들어냈습니다.',
           author: 'Mark Russinovich',
           role: 'Chief Technology Officer at Microsoft Azure, 2021',
         },
@@ -76,7 +76,7 @@ const data = {
           logoWidth: 104,
           company: 'Google',
           review:
-            'eBPF is the future of networking for the Linux kernel and Google is pleased to be part of the evolving standard it has created.',
+            'eBPF는 리눅스 커널 네트워킹의 미래이며, Google은 해당 기술의 표준이 발전하는 것에 참여할 수 있어서 기쁩니다.',
           author: 'Chris DiBona',
           role: 'Director of Open Source at Google, 2021',
         },
@@ -85,7 +85,7 @@ const data = {
           logoWidth: 148,
           company: 'Isovalent',
           review:
-            'Even though eBPF has already found its ways into the production stacks of countless enterprises, we are still at the beginning of the innovation curve that eBPF as a technology unlocks',
+            'eBPF가 이미 수 많은 기업의 프로덕션 스택에 적용되었지만, 아직도 우리는 eBPF가 해결할 수 있는 기술 혁신 곡선 중 초기 단계에 머물고 있습니다.',
           author: 'Thomas Graf',
           role: 'Chief Technology Officer at Isovalent, 2021',
         },
@@ -94,7 +94,7 @@ const data = {
           logoWidth: 120,
           company: 'Meta',
           review:
-            'For many years, eBPF has played a critical role in accelerating the kernel development. We’re excited to support the work of the eBPF community, enabling them to build the tools needed to power the next generation of Linux system development.',
+            '수년간, eBPF는 커널 개발을 가속화하는 데 중요한 역할을 해왔습니다. 저희는 다음 세대의 리눅스 시스템 개발을 돕는 도구를 개발할 수 있는 eBPF 커뮤니티의 작업을 지원할 수 있어서 기대됩니다.',
           author: 'Chris Mason',
           role: 'Kernel Maintainer and Engineering Director at Facebook, 2021',
         },
@@ -103,47 +103,47 @@ const data = {
           logoWidth: 109,
           company: 'Netflix',
           review:
-            'eBPF is a new type of software that provides superpower capabilities, birthing an industry of networking, performance, and security technologies. Netflix has pioneered uses of eBPF for observability, providing insight into countless areas that were previously difficult or prohibitively expensive to instrument. eBPF has helped us lower application latency and find cost savings.',
+            'eBPF는 굉장한 기능을 제공하는 새로운 종류의 소프트웨어로, 네트워킹, 성능 및 보안 기술의 새로운 산업을 탄생시켰습니다. Netflix는 eBPF를 사용하여 관측 가능성을 확보하는 것을 선구적으로 도입하여, 기존의 도구로는 관측이 어렵거나 높은 비용이 수반 되던 많은 영역에 대한 가시성을 확보할 수 있었습니다. eBPF는 저희가 애플리케이션 지연 시간을 낮추고 비용 절감에 도움을 주었습니다.',
           author: 'Brendan Gregg',
           role: 'Senior performance engineer at Netflix, 2021',
         },
       ],
     },
     features: {
-      title: 'What’s possible with eBPF?',
+      title: 'eBPF로 무엇을 할 수 있을까요?',
       items: [
         {
           bgClassName: 'bg-secondary-yellow-light',
           image: 'networking',
-          title: 'Networking',
+          title: '네트워킹',
           description:
-            'Speed packet processing without leaving kernel space. Add additional protocol parsers and easily program any forwarding logic to meet changing requirements.',
+            '커널 공간을 벗어나지 않고 빠른 속도로 패킷을 처리할 수 있습니다. 그리고 변경되는 요구사항을 위한 추가적인 프로토콜 파싱 및 포워딩 로직을 손쉽게 프로그래밍 할 수 있습니다.',
         },
         {
           bgClassName: 'bg-secondary-green-light',
           image: 'observability',
-          title: 'Observability',
+          title: '관측 가능성',
           description:
-            'Collection and in-kernel aggregation of custom metrics with generation of visibility events and data structures from a wide range of possible sources without having to export samples.',
+            '커널 내부의 사용자 지정 메트릭, 이벤트 가시성 그리고 다양한 종류의 자료 구조 등에 대한 정보를 내부에서 손쉽게 수집 및 종합할 수 있습니다.',
         },
         {
           bgClassName: 'bg-secondary-blue-light',
           image: 'tracingAndProfiling',
-          title: 'Tracing & Profiling',
+          title: '추적 및 프로파일링',
           description:
-            'Attach eBPF programs to trace points as well as kernel and user application probe points giving powerful introspection abilities and unique insights to troubleshoot system performance problems.',
+            'eBPF 프로그램을 tracepoint 및 커널 또는 유저 애플리케이션의 임의의 관측 지점에 부착할 수 있으며, 이를 통해 강력한 감시 능력과 독특한 시야를 제공하여 시스템 성능 관련 문제를 해결할 수 있습니다.',
         },
         {
           bgClassName: 'bg-secondary-red-light',
           image: 'security',
           title: 'Security',
           description:
-            'Combine seeing and understanding all system calls with a packet and socket-level view of all networking to create security systems operating on more context with a better level of control.',
+            '모든 시스템 콜 및 네트워크 패킷 그리고 소켓 수준에서의 네트워킹 관측에 대한 정보를 종합하여, 시스템의 제어 흐름을 더 잘 설명하는 높은 수준의 보안 시스템을 구성할 수 있습니다.',
         },
       ],
     },
     videoGallery: {
-      title: 'eBPF Community Talks',
+      title: 'eBPF 커뮤니티 발표들',
       items: videoItems,
     },
   },
